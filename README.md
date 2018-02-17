@@ -1,12 +1,9 @@
-# node-thermal-printer
-Node.js module for EPSON and STAR thermal printers command line printing.
-
-[![Join the chat at https://gitter.im/Klemen1337/node-thermal-printer](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Klemen1337/node-thermal-printer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
+# node-thermal-printer-eb
+Node.js module for EPSON, STAR and CUSTOM thermal printers command line printing.
 
 ### Installation
 ```bash
-$ npm install node-thermal-printer
+$ npm install node-thermal-printer-eb
 ```
 
 
@@ -86,7 +83,7 @@ print.getWidth();                                   // Get number of characters 
 
 ### Examples
 ```js
-var printer = require("node-thermal-printer");
+var printer = require("node-thermal-printer-eb");
 printer.init({
   type: 'epson',
   interface: '/dev/usb/lp0'
