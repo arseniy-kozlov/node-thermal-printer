@@ -3,7 +3,7 @@ Node.js module for EPSON, STAR and CUSTOM thermal printers command line printing
 
 ### Installation
 ```bash
-$ npm install node-thermal-printer-eb
+$ npm install git+https://git@github.com/arseniy-kozlov/node-thermal-printer.git
 ```
 
 
